@@ -576,6 +576,15 @@ footer::before {
     .footer-bottom p {
         font-size: 0.8rem;
     }
+
+    button:hover, 
+    a:hover, 
+    .gallery-grid img:hover, 
+    .video-grid iframe:hover, 
+    .back-btn:hover {
+        transform: none;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -591,5 +600,14 @@ footer::before {
     .announcement-bar {
         font-size: 0.9rem;
         padding: 10px 12px;
+    }
+
+    button:hover, 
+    a:hover, 
+    .gallery-grid img:hover, 
+    .video-grid iframe:hover, 
+    .back-btn:hover {
+        transform: none;
+        box-shadow: none;
     }
 }
